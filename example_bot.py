@@ -17,4 +17,5 @@ async def on_message(message):
     if message.content == "!hello":
         await message.channel.send(f'Hello, {message.author.mention}!')
 
-client.run("")
+client.run(DISCORD_TOKEN)
+print("Bot is connected to server")
