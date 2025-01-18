@@ -7,13 +7,13 @@
 2. Set up the Python 3 virtual enviornment in order to install project dependancies. This creates a dedicated project environment with all the code libraries needed for the project installed within it. In order to create the environment, run the following:
 
 ```
-python3 -m venv venv
+python3 -m venv myenv
 ```
 
 And each time you are ready to run it, run this:
 
 ```
-source venv/Scripts/activate
+source myenv/Scripts/activate
 ```
 
 You should see the environment name in parenthesis next to your name in the Terminal in paranthesis like so (venv)
